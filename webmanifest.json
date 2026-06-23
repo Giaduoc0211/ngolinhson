@@ -1,0 +1,29 @@
+{
+"name"              : "Ngo Linh Son wood working materials",
+"short_name"        : "Ngo Linh Son wood working materials",
+"description"       : "Ngo Linh Son wood working materials",
+"start_url"         : "./",
+"display_override": ["window-controls-overlay"],
+"display": "standalone",
+"orientation": "portrait",
+"background_color"  : "#141619",
+"theme_color"       : "#fff",
+"icons": [
+	{
+	  "src": "./template/images/icon-192.png",
+	  "sizes": "192x192",
+	  "type": "image/png"
+	},
+	{
+	  "src": "./template/images/icon-512.png",
+	  "sizes": "512x512",
+	  "type": "image/png"
+	},
+	{
+      "src": "./template/images/maskable-icon.png",
+      "sizes": "196x196",
+      "type": "image/png"
+      
+    }
+  ]
+}
