@@ -3,7 +3,6 @@ const slides = [...document.querySelectorAll(".hero-slide")];
 const dots = [...document.querySelectorAll(".hero-controls button")];
 const menuButton = document.querySelector(".menu-toggle");
 const menu = document.querySelector(".main-nav");
-const result = document.querySelector(".pin-result");
 
 let current = 0;
 let timer = window.setInterval(nextSlide, 5200);
@@ -36,12 +35,6 @@ menu.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     menu.classList.remove("open");
     menuButton.setAttribute("aria-expanded", "false");
-  });
-});
-
-document.querySelectorAll(".pin").forEach((pin) => {
-  pin.addEventListener("click", () => {
-    result.textContent = `${pin.dataset.label}: khuyến nghị dùng ván chống ẩm, lõi xanh và bề mặt phủ phù hợp tần suất sử dụng.`;
   });
 });
 

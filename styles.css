@@ -237,37 +237,7 @@ h1 {
 
 .dream { background: #e8e6df; }
 .dream-stage { min-height: 620px; overflow: hidden; box-shadow: 0 28px 70px rgba(0,0,0,.22); }
-.pin {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  border: 2px solid white;
-  border-radius: 50%;
-  background: var(--red);
-  box-shadow: 0 0 0 12px rgba(223,29,37,.24);
-  cursor: pointer;
-}
-.pin::after {
-  content: attr(data-label);
-  position: absolute;
-  left: 30px;
-  top: 50%;
-  transform: translateY(-50%);
-  white-space: nowrap;
-  padding: 8px 12px;
-  color: white;
-  background: rgba(0,0,0,.7);
-  font-size: 12px;
-  font-weight: 700;
-}
 .dream-copy p { color: #54575c; }
-.pin-result {
-  margin-top: 24px;
-  padding: 22px;
-  border-left: 4px solid var(--red);
-  background: white;
-  font-weight: 600;
-}
 
 .project-strip {
   display: grid;
