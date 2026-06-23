@@ -1,7 +1,7 @@
 {
-"name"              : "An Cuong wood working materials",
-"short_name"        : "An Cuong wood working materials",
-"description"       : "An Cuong wood working materials",
+"name"              : "Ngo Linh Son wood working materials",
+"short_name"        : "Ngo Linh Son wood working materials",
+"description"       : "Ngo Linh Son wood working materials",
 "start_url"         : "./",
 "display_override": ["window-controls-overlay"],
 "display": "standalone",

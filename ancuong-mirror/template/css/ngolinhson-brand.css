@@ -1,0 +1,80 @@
+.logo::after,
+.logo-footer,
+.apps-catalogue,
+.load-icon {
+  background-image: url("../images/ngo-linh-son-logo.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.load-icon {
+  width: min(12rem, 34vw) !important;
+  height: min(12rem, 34vw) !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.load-icon svg,
+.load-icon path,
+.load-icon circle,
+.load-icon line,
+.load-icon polygon,
+.load-icon polyline {
+  display: none !important;
+}
+
+.logo {
+  width: 1.65rem !important;
+  height: 1.65rem !important;
+  left: calc(50% - .825rem) !important;
+  top: .75rem !important;
+}
+
+.logo::after {
+  content: "" !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.header.hide .logo {
+  width: 1.55rem !important;
+  height: 1.55rem !important;
+  left: calc(50% - .775rem) !important;
+  top: .6rem !important;
+}
+
+.logo-footer {
+  width: 10rem !important;
+  height: 10rem !important;
+}
+
+/* Temporarily hide third-party chat/support widgets. */
+#fb-root,
+.fb_dialog,
+.fb-customerchat,
+.fb_customer_chat_bounce_in_v2,
+.fb_customer_chat_bounce_out_v2,
+#tawkchat-container,
+iframe[src*="tawk"],
+iframe[src*="crisp"],
+iframe[src*="intercom"],
+iframe[src*="messenger"],
+iframe[src*="facebook.com/plugins/customerchat"],
+iframe[src*="zalo"],
+[class*="chatbot"],
+[class*="livechat"],
+[class*="customer-chat"],
+[class*="messenger"],
+[class*="zalo-chat"],
+[id*="chatbot"],
+[id*="livechat"],
+[id*="customer-chat"],
+[id*="messenger"],
+[id*="zalo-chat"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
